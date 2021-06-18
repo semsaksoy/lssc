@@ -1,5 +1,5 @@
 # Installation Steps
-1. Download the content and unzip the package
+1. [Download](https://github.com/semsaksoy/lssc/releases/download/LSSCv1/lssc-main.zip "Download") the content and unzip the package
 2. Open the package content and move under “setup” directory.
 3. Simply run “bash install.sh” with root privilege.
 4. Make the relevant configuration for your environment. An example configuration will be installed which can be modified later on. 
