@@ -1,0 +1,60 @@
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+</head>
+<body>
+
+<div id="content" style="font-family: verdana;background-color: #eaeaea;font-size: 10px;margin: 0 0 0 0;padding: 0 0 0 0;">
+
+  <table class="cizgi base_table" style="border-collapse: collapse;border-spacing: 0;padding: 0;font-size: 14px;width: 800px;border: 1px solid grey;">
+
+    <tr>
+      <td align="left">
+        <!--logo here-->
+        <img alt="" width="100" style="border-width: 0;" src="data:image/png;base64,"/>
+        </td>
+      <td colspan="2" style="font-weight: bold; text-align: center; vertical-align: bottom;color:darkgreen;">
+        Device Sending Events
+      </td>
+    </tr>
+    <tr class="cizgi_satir" style="border: 1px solid grey;padding: 0;text-align: center;">
+      <td class="label" style="color: #6c6c6c;border: 1px solid grey;padding: 0;text-align: center;">Name</td>
+      <td style="border: 1px solid grey;padding: 0;text-align: center;"><%= self.name %></td>
+    </tr>
+    <tr class="cizgi_satir" style="border: 1px solid grey;padding: 0;text-align: center;">
+      <td class="label" style="color: #6c6c6c;border: 1px solid grey;padding: 0;text-align: center;">Identifier</td>
+      <td style="border: 1px solid grey;padding: 0;text-align: center;" title="<%= self.id %>"><%= self.identifier %></td>
+    </tr>
+    <tr class="cizgi_satir" style="border: 1px solid grey;padding: 0;text-align: center;">
+      <td class="label" style="color: #6c6c6c;border: 1px solid grey;padding: 0;text-align: center;">Description</td>
+      <td style="border: 1px solid grey;padding: 0;text-align: center;"><%= self.description %></td>
+    </tr>
+    <tr class="cizgi_satir" style="border: 1px solid grey;padding: 0;text-align: center;">
+      <td class="label" style="color: #6c6c6c;border: 1px solid grey;padding: 0;text-align: center;">Last EPS</td>
+      <td style="border: 1px solid grey;padding: 0;text-align: center;"><%= self.eps %></td>
+    </tr>
+
+    <tr class="cizgi_satir" style="border: 1px solid grey;padding: 0;text-align: center;">
+      <td class="label" style="color: #6c6c6c;border: 1px solid grey;padding: 0;text-align: center;">Last event time
+      </td>
+      <td style="border: 1px solid grey;padding: 0;text-align: center;"><%= self.last_seen ? self.last_seen.strftime("%d.%m.%Y %T") : "-" %> </td>
+    </tr>
+
+    <tr class="cizgi_satir" style="border: 1px solid grey;padding: 0;text-align: center;">
+      <td class="label" style="color: #6c6c6c;border: 1px solid grey;padding: 0;text-align: center;">Groups</td>
+      <td style="border: 1px solid grey;padding: 0;text-align: center;"><%= self.group_name %></td>
+    </tr>
+    <tr class="cizgi_satir" style="border: 1px solid grey;padding: 0;text-align: center;">
+      <td class="label" style="color: #6c6c6c;border: 1px solid grey;padding: 0;text-align: center;">Email time
+      </td>
+      <td style="border: 1px solid grey;padding: 0;text-align: center;"><%= Time.now.strftime("%d.%m.%Y %T") %></td>
+    </tr>
+
+
+  </table>
+
+
+</div>
+</body>
+</html>

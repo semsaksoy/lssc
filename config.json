@@ -1,0 +1,29 @@
+{
+  "sender": "qradar@testdomain.com",
+  "subject_stopped": "Log source stopped:",
+  "subject_running": "Log source running:",
+  "control_frequency": 1,
+
+  "groups": {
+
+    "Firewalls": {
+      "stop_tolerance": 5,
+      "notify_frequency": 10,
+      "notify_clean": true,
+      "receiver": [
+		"bakir.sehatcan@gmail.com",
+        "semsaksoy@gmail.com"
+      ]
+    },
+
+    "test 2": {
+      "stop_tolerance": 2,
+      "notify_frequency": 10,
+      "receiver": [
+		"bakir.sehatcan@gmail.com",
+        "semsaksoy@gmail.com"
+      ]     
+    }
+    
+  }
+}

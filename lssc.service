@@ -1,0 +1,19 @@
+# lssc.service
+[Unit]
+Description=LSSC
+After=network.target hostservices.service
+
+[Service]
+
+User=root
+Group=root
+WorkingDirectory=/opt/lssc/
+Restart=always
+ExecStart=/bin/ruby run.rb
+StandardOutput=syslog
+StandardError=syslog
+SyslogFacility=local0
+SyslogLevel=warning
+
+[Install]
+WantedBy=multi-user.target
