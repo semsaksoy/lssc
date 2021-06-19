@@ -37,9 +37,9 @@ LSSC Application support HA availability of log sources. It is possible to set H
 
 Email templates in the views directory can be easily edited. Following images are sample of default templates
 
-![Stopped](https://user-images.githubusercontent.com/1064270/122638156-4224aa80-d0fb-11eb-93c1-373bc5bd0748.png "Stopped")
+![Stopped](https://user-images.githubusercontent.com/1064270/122638517-29b58f80-d0fd-11eb-85b6-31f5221abde1.png "Stopped")
 
-![Running](https://user-images.githubusercontent.com/1064270/122638155-40f37d80-d0fb-11eb-9863-77c61fd5af56.png "Running")
+![Running](https://user-images.githubusercontent.com/1064270/122638516-291cf900-d0fd-11eb-86bc-2e59e29e6824.png "Running")
 
 
 
