@@ -7,7 +7,7 @@
 PS: ruby and libyaml are dependencies for this application but both package and installer script contains the dependencies and relevant installation commands. Rpm packets are compatible with Qradar 7.3.x (RHEL7), packets must replace with older versions for Qradar 7.2.x
 
 # Configuration Arguments / Options
-
+Config file path: /opt/lssc/config.json
 Example config
 
 
