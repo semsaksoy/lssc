@@ -8,6 +8,40 @@ PS: ruby and libyaml are dependencies for this application but both package and 
 
 # Configuration Arguments / Options
 
+Example config
+
+
+    {
+      "sender": "qradar@example.com",
+      "subject_stopped": "Log source stopped:",
+      "subject_running": "Log source running:",
+      "control_frequency": 1,
+    
+      "groups": {
+    
+        "Firewalls": {
+          "stop_tolerance": 5,
+          "notify_frequency": 10,
+          "notify_clean": true,
+          "receiver": [
+            "bakir.serhatcan@gmail.com",
+            "semsaksoy@gmail.com"
+          ]
+        },
+    
+        "test 2": {
+          "stop_tolerance": 2,
+          "notify_frequency": 10,
+          "receiver": [
+            "bakir.serhatcan@gmail.com",
+            "semsaksoy@gmail.com"
+          ]
+        }
+      }
+      
+    }
+
+
 - **“sender**”: to define email sender address of the Qradar Server
 - **“subject_stopped”**: to define email subject of the notification 
 - **“subject_running”**: to define email subject when stopped log source starts again
