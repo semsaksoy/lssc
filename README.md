@@ -8,6 +8,7 @@ PS: ruby and libyaml are dependencies for this application but both package and 
 
 # Configuration Arguments / Options
 Config file path: /opt/lssc/config.json
+
 Example config
 
 
