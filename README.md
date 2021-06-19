@@ -35,3 +35,12 @@ LSSC Application support HA availability of log sources. It is possible to set H
 > Simply “ha:logsourcename2;” must contain in logsource1’s description and “ha:logsourcename1;” must contain in logsource2’s description.
 
 
+Email templates in the views directory can be easily edited. Following images are sample of default templates
+
+![Stopped](https://user-images.githubusercontent.com/1064270/122638156-4224aa80-d0fb-11eb-93c1-373bc5bd0748.png "Stopped")
+
+![Running](https://user-images.githubusercontent.com/1064270/122638155-40f37d80-d0fb-11eb-9863-77c61fd5af56.png "Running")
+
+
+
+Scripts are **not official IBM solutions**. IBM highlights [Modified (YUM) is not supported through all other installations of non-QRadar software modules, RPMs, or Yellowdog Updater](https://www-01.ibm.com/support/docview.wss?uid=swg21991208). Use at your own risk.
