@@ -93,3 +93,4 @@ modules.xml
 
 # End of https://www.toptal.com/developers/gitignore/api/rubymine+all
 /.idea/
+*.DS_Store
