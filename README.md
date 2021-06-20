@@ -25,8 +25,8 @@ Example config
           "notify_frequency": 10,
           "notify_clean": true,
           "receiver": [
-            "bakir.serhatcan@gmail.com",
-            "semsaksoy@gmail.com"
+            "youremail1@example.com",
+            "youremail2@example.com"
           ]
         },
     
@@ -34,8 +34,8 @@ Example config
           "stop_tolerance": 2,
           "notify_frequency": 10,
           "receiver": [
-            "bakir.serhatcan@gmail.com",
-            "semsaksoy@gmail.com"
+            "youremail3@example.com",
+            "youremail4@example.com"
           ]
         }
       }
