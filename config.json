@@ -1,5 +1,5 @@
 {
-  "sender": "qradar@testdomain.com",
+  "sender": "qradar@example.com",
   "subject_stopped": "Log source stopped:",
   "subject_running": "Log source running:",
   "control_frequency": 1,
@@ -11,8 +11,8 @@
       "notify_frequency": 10,
       "notify_clean": true,
       "receiver": [
-		"bakir.sehatcan@gmail.com",
-        "semsaksoy@gmail.com"
+		"youremail1@example.com",
+        "youremail2@example.com"
       ]
     },
 
@@ -20,8 +20,8 @@
       "stop_tolerance": 2,
       "notify_frequency": 10,
       "receiver": [
-		"bakir.sehatcan@gmail.com",
-        "semsaksoy@gmail.com"
+		"youremail1@example.com",
+        "youremail2@example.com"
       ]     
     }
     
