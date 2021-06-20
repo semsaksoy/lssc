@@ -56,7 +56,7 @@ make it applied. An example configuration is already installed and can be found 
 ## Configuration parameters under the groups:
 
 - **“stop_tolerance”**: to define log source stop tolerance (minutes of interruption of the log source state)
-- **“notify_frequency”** : to define frequency of the  mail notification in minutes
+- **“notify_frequency”** : to define frequency of the reminder mail notification in minutes
 - **“notify_clean”**: to define having notification when the state of the log source is turned as “running” (true/false)
 - **“receiver**”: to define list of the users to get the log source stop notification emails.
 
