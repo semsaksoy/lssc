@@ -1,5 +1,5 @@
 # Installation Steps
-1. [Download](https://github.com/semsaksoy/lssc/archive/refs/tags/LSSCv1.1.zip "Download") the content and unzip the package to a directory on console
+1. [Download](https://github.com/semsaksoy/lssc/archive/refs/tags/LSSCv1.1.zip "Download") the content and unzip the package to a directory on qradar console
 2. Go to “setup” directory.
 3. Simply run “bash install.sh” with root privilege.
 4. Make the relevant configuration for your environment. An example configuration will be installed which can be modified later on. 
