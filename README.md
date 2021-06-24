@@ -4,7 +4,7 @@
 3. Simply run “bash install.sh” with root privilege.
 4. Make the relevant configuration for your environment. An example configuration will be installed which can be modified later on. 
 5. Check the status of the **lssc** service at the end of the installation. 
-PS: ruby and libyaml are dependencies for this application but both package and installer script contains the dependencies and relevant installation commands. Rpm packets are compatible with Qradar 7.3.x (RHEL7), packets must replace with older versions for Qradar 7.2.x
+PS: ruby and libyaml are dependencies for this application but both package and installer script contains the dependencies and relevant installation commands. Rpm packets are compatible with Qradar 7.3.x,7.4.x (RHEL7), packets must replace with older versions for Qradar 7.2.x
 
 # Configuration Arguments / Options
 Config file path: /opt/lssc/config.json
